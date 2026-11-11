@@ -1,0 +1,36 @@
+# Node dependencies & builds
+node_modules/
+dist/
+dist-nextjs/
+.next/
+out/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.env.local
+.venv
+venv/
+ENV/
+
+# Temporary audio files
+*.wav.tmp
+_temp_synth.wav
+test_pyttsx3.wav
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Binaries
+*.exe
+cloudflared.exe
